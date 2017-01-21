@@ -1,0 +1,82 @@
+body
+{
+	background-color:#111;
+}
+#dosomething
+{
+    color: black;
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+.div1{
+    float: center;
+    text-align: center;
+}
+.div2 {
+    position:absolute;
+    right:55%; 
+}
+.div3 {
+    position:absolute;
+    left:55%;
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.box
+{
+	border-style: solid;
+}
+.attributes
+{
+	color:#c0c0c0;
+}
+.myProgress {
+  position: relative;
+  width: 200px;
+  height: 15px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid; 
+}
+#speed {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: dodgerblue;
+}
+#special_defense {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: dodgerblue;
+}
+#special_attack {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: dodgerblue;
+}
+#defense {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: dodgerblue;
+}
+#attack {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: dodgerblue;
+}
+#hp {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: dodgerblue;
+}

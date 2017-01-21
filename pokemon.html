@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="pokemon.css">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    </head>
+    <body>
+        <div class="div1">
+            <h1 class="attributes">Pokedex</h1><br>
+            <input type = "text" id = "enter" name = "enter" style="border-style: solid;"> &nbsp;
+            <button id="dosomething">Go</button><br><br>
+        </div>
+        <center><div id="image_pok"></div></center>
+        
+        <div class="div2">
+       	<br><br>
+            <table>
+                <tr>
+                    <td><label for="type"><span class="attributes">Type</span></label></td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><input type = "text" id = "type" name = "type" class="box"></td>
+                </tr>
+                <tr>
+                    <td><label for="height"><span class="attributes">Height</span></label></td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><input type = "text" id = "height" name = "height" class="box"></td>
+                </tr>
+                <tr>
+                    <td><label for="weight"><span class="attributes">Weight</span></label></td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><input type = "text" id = "weight" name = "weight" class="box"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="div3">
+            <table>
+                <tr>
+                    <td><label for="speed"><span class="attributes">Speed</span></label></td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><div class= "myProgress">
+                            <div id= "speed"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="special_defense"><span class="attributes">Special Defense</span></label></td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><div class="myProgress">
+                            <div id="special_defense"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="special_attack"><span class="attributes">Special Attack</span></label></td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><div class="myProgress">
+                            <div id="special_attack"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="defense"><span class="attributes">Defense</span></label></td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><div class="myProgress">
+                            <div id="defense"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="attack"><span class="attributes">Attack</span></label></td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><div class="myProgress">
+                            <div id="attack"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="hp"><span class="attributes">HP</span></label></td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><div class="myProgress">
+                            <div id="hp"></div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+     <script src="pokemon.js"></script> 
+</html>
